@@ -21,7 +21,6 @@ def set_seed(seed=42):
         torch.backends.cudnn.benchmark = False
 set_seed(42)
 class Config:
-    data_path = r"D:\damangshe\75\3TG\polyurea_gcn_dataset2.pt"
     hidden_channels = 80
     out_channels = 48
     global_feat_dim = 25
